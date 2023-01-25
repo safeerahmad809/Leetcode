@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vecotr<string> findWords(vector<string>& words) {
+    vector<string> findWords(vector<string>& words) {
         
         int n = words.size();
         unordered_map<char, int> m;
